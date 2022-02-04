@@ -1,0 +1,53 @@
+.snackbar-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.snackbar{
+    background-color: black;
+color: white;
+padding: .2rem 1rem;
+border-radius: 3px;
+position: fixed;
+max-width: 400px;
+top: 1rem;
+}
+
+.flat-button{
+background: transparent;
+color: blueviolet;
+border: none;
+margin: .1rem .3rem;
+padding: .4rem .5rem;
+
+}
+.flat-button:hover{
+    background: transparent;
+    
+    
+    cursor: pointer;
+    
+    }
+    .flat-button:active{
+        background: transparent;
+        background-color: #6200ee;
+        color: blueviolet;
+        border: none;
+       
+        margin: .1rem .3rem;
+        padding: .4rem .5rem;
+        cursor: pointer;
+        
+        }
+
+.close-button{
+    background: transparent;
+    color: white;
+    border: none;
+    margin: .1rem .3rem;
+    font-weight: 700;
+    font-size: 1rem;
+
+}
